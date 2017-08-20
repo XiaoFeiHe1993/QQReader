@@ -1,0 +1,47 @@
+<!--bookdetail.wxml-->
+<view>
+    <scroll-view>
+        <view class="book-detail-top-root">
+            <image class="book-detail-top-image" src="/images/icon_rank2.png"></image>
+            <view class="book-detail-top-child">
+              <view class="book-detail-top-title">长尾理论</view>
+              <view class="book-detail-top-content">6.2分(10人评)</view>
+              <view class="book-detail-top-content">经济 (美)克里斯`安德森</view>
+            </view>
+        </view>
+        <view>
+            <text class="book-detail-des-jie">书记介绍</text>
+            <text class="book-detail-des-mei">免费章节共8章</text>
+            <text class="book-detail-des-update">更新于2015-08-05</text>
+        </view>
+        <view class="book-detail-middle">
+            <text>
+                《长尾理论》中阐述，商业和文化的未来不在于传统需求曲线上那个代表“畅销商品”（hits）的头部；而是那条代表“冷门商品”（misses）经常为人遗忘的长尾。举例来说，一家大型书店通常可摆放10万本书，但亚马逊网络书店的图书销售额中，有四分之一来自排名10万以后的书籍。这些“冷门”书籍的销售比例正以高速成长预估未来可占整体书市的一半。这意味着消费者在面对无限的选择时，真正想要的东西、和想要取得的渠道都出现了重大的变化，一套崭新的商业模式也跟着崛起
+            </text>
+        </view>
+        <view>
+            <text>书记目录</text>
+            <text>1-13章</text>
+        </view>
+        <view wx:for="{{menuList}}" wx:for-index="index" wx:for-item="item">
+            <view class="book-detail-item">
+                <navigator class="book-list-root" url="../bookarticle/bookarticle">
+                  <text>{{item}}</text>
+                </navigator>
+            </view>
+            <view class="line"></view> 
+        </view>
+        <view class="book-detail-more">没有更多了</view>
+    </scroll-view>
+    <view class="line"></view> 
+    <view class="book-detail-bottom">
+        <view class="book-detail-bottom-left">
+            <image class="book-detail-bottom-image" src="/images/icon_book.png"></image>           
+            <view>免费试读</view>
+        </view>
+        <view class="book-detail-bottom-right">
+            <image class="book-detail-bottom-image" src="/images/icon_book_jia.png"></image>
+            <view>已在书架</view>           
+        </view>
+    </view>
+</view>

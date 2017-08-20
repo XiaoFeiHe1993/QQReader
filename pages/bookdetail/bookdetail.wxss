@@ -1,0 +1,96 @@
+/* bookdetail.wxss */
+
+.book-detail-top-root{
+  display: flex;
+  flex-direction: "row";
+  padding: 15px 10px 0px 10px;
+}
+
+.book-detail-top-image{
+   width: 144px;
+   height: 128px;
+   flex: 1;
+}
+
+.book-detail-top-title{
+  padding-left: 10px;
+}
+
+.book-detail-top-content{
+  font-size: 12px;
+  padding: 5px 5px 5px 10px;
+  margin-top: 1px;
+}
+
+.book-detail-middle{
+  color: #9c9a9c;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+}
+
+.book-detail-top-child{
+  flex: 3;
+}
+
+.book-detail-item{
+  padding: 10px 10px 10px 10px;
+}
+
+.book-detail-bottom{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.book-detail-bottom-image{
+  width: 20px;
+  height: 20px;
+}
+
+.book-detail-bottom-left{
+  flex: 1;
+  text-align: center;
+  background-color: #319aff;
+  color: white;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.book-detail-bottom-right{
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  color: #319aff;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.book-detail-more{
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+}
+
+.book-detail-des-jie{
+  font-size: 15px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.book-detail-des-mei{
+  font-size: 11px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.book-detail-des-update{
+  font-size: 11px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}

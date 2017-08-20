@@ -1,0 +1,79 @@
+/* choose.wxss */
+
+.choose-root{
+  display: flex;
+  flex-direction: "row";
+  padding: 5px 10px 5px 10px;
+}
+
+.choose-line{
+  width: 100%;
+  height: 6px;
+  background-color: #efeff7;
+}
+
+.choose-child{
+  flex: 3;
+}
+
+.choose-image{
+  width: 144px;
+  height: 128px;
+  flex: 1;
+}
+
+.choose-name{
+  font-size: 15px;
+  color: black;
+  margin-left: 5px;
+}
+
+.choose-des{
+  font-size: 12px;
+  color: #9c9a9c;
+  text-overflow: ellipsis;
+  margin-left: 5px;
+}
+
+.choose-autor{
+  font-size: 10px;
+  color: #9c9a9c;
+  margin-left: 5px;
+}
+
+.choose-tag1{
+  font-size: 10px;
+  color: #9c9a9c;
+  padding: 1px;
+  border-top: 2px solid #cecfce;
+  border-bottom: 2px solid #cecfce;
+  border-left: 2px solid #cecfce;
+  border-right: 2px solid #cecfce;
+  position: relative;
+  float: right;
+}
+
+.choose-tag2{
+  font-size: 10px;
+  color: #9c9a9c;
+  padding: 1px;
+  margin-right: 5px;
+  border-top: 2px solid #cecfce;
+  border-bottom: 2px solid #cecfce;
+  border-left: 2px solid #cecfce;
+  border-right: 2px solid #cecfce;
+  position: relative;
+  float: right;
+}
+
+.choose-more{
+  font-size: 20px;
+  color: #319aff;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+}
+
+.choose-item{
+  padding-left: 10px;
+  padding-top: 5px;
+}

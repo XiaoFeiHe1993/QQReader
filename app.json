@@ -1,0 +1,50 @@
+{
+  "pages": [
+    
+
+    "pages/bookcase/bookcase",
+    "pages/choose/choose",
+    "pages/stack/stack",
+    "pages/rank/rank",
+    "pages/booklist/booklist",
+    "pages/bookdetail/bookdetail",
+    "pages/bookarticle/bookarticle",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#319AFF",
+    "navigationBarTitleText": "QQ阅读",
+    "navigationBarTextStyle": "#CECFCE"
+  },
+  "tabBar": {
+    "color": "#CECFCE",
+    "selectedColor": "#319AFF",
+    "list": [
+      {
+        "pagePath": "pages/bookcase/bookcase",
+        "text": "书架",
+        "iconPath": "images/icon_shujia.png",
+        "selectedIconPath": "images/icon_shujia1.png"
+      },
+      {
+        "pagePath": "pages/choose/choose",
+        "text": "精选",
+        "iconPath": "images/icon_choose.png",
+        "selectedIconPath": "images/icon_choose1.png"
+      },
+      {
+        "pagePath": "pages/stack/stack",
+        "text": "书库",
+        "iconPath": "images/icon_stack.png",
+        "selectedIconPath": "images/icon_stack1.png"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行",
+        "iconPath": "images/icon_rank.png",
+        "selectedIconPath": "images/icon_rank1.png"
+      }
+    ]
+  }
+}

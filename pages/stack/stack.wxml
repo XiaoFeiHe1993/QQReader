@@ -1,0 +1,41 @@
+<!--pages/stack/stack.wxml-->
+<view>
+  <view>
+    <view wx:for="{{stackList}}" wx:for-index="index" wx:for-item="item">
+        <navigator class="stack-view" url="../booklist/booklist">
+            <image src="/images/icon_stack5.png" class="stack-image"></image>
+            <text class="stack-name">{{item.name}}</text>
+            <text class="stack-numb">{{item.numb}}  ></text>
+        </navigator>
+        <view class="stack-line"></view> 
+    </view>
+  </view>
+  <view>
+    <text>以下分类推荐出版阅读</text>
+    <view class="stack-line"></view> 
+  </view>
+  <view>
+    <view wx:for="{{recommendList}}" wx:for-index="index" wx:for-item="item">
+        <navigator class="stack-view" url="../booklist/booklist">
+            <image src="/images/icon_stack5.png" class="stack-image"></image>
+            <text class="stack-name">{{item.name}}</text>
+            <text class="stack-numb">{{item.numb}}  ></text>
+        </navigator>
+        <view class="stack-line"></view> 
+    </view>
+  </view>
+  <view>
+    <text>以下分类推荐女生阅读</text>
+    <view class="stack-line"></view> 
+  </view>
+  <view>
+    <view wx:for="{{girlList}}" wx:for-index="index" wx:for-item="item">
+        <navigator class="stack-view" url="../booklist/booklist">
+            <image src="/images/icon_stack5.png" class="stack-image"></image>
+            <text class="stack-name">{{item.name}}</text>
+            <text class="stack-numb">{{item.numb}}  ></text>
+        </navigator>
+        <view class="stack-line"></view> 
+    </view>
+  </view>
+</view>

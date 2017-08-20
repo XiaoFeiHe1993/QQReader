@@ -1,0 +1,61 @@
+/* booklist.wxss */
+
+.book-list-root{
+  display: flex;
+  flex-direction: "row";
+  padding: 5px 10px 5px 10px;
+}
+
+.book-list-image{
+  width: 144px;
+  height: 128px;
+  flex: 1;
+}
+
+.book-list-child{
+  flex: 3;
+}
+
+.book-list-name{
+  font-size: 15px;
+  color: black;
+  margin-left: 5px;
+}
+
+.book-list-des{
+  font-size: 12px;
+  color: #9c9a9c;
+  text-overflow: ellipsis;
+  margin-left: 5px;
+}
+
+.book-list-autor{
+  font-size: 10px;
+  color: #9c9a9c;
+  margin-left: 5px;
+}
+
+.book-list-tag1{
+  font-size: 10px;
+  color: #9c9a9c;
+  padding: 1px;
+  margin-right: 5px;
+  border-top: 2px solid #cecfce;
+  border-bottom: 2px solid #cecfce;
+  border-left: 2px solid #cecfce;
+  border-right: 2px solid #cecfce;
+  position: relative;
+  float: right;
+}
+
+.book-list-tag2{
+  font-size: 10px;
+  color: #ff8608;
+  padding: 1px;
+  border-top: 2px solid #ff8608;
+  border-bottom: 2px solid #ff8608;
+  border-left: 2px solid #ff8608;
+  border-right: 2px solid #ff8608;
+  position: relative;
+  float: right;
+}

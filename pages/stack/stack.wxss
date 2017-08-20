@@ -1,0 +1,41 @@
+/* pages/stack/stack.wxss */
+
+.stack-line{
+  width: 100%;
+  height: 1px;
+  background-color: #efefef;
+}
+
+.stack-view{
+  height: 80px;
+  padding: 5px 10px 5px 10px;
+  display: block;
+}
+
+.stack-image{
+  width: 107px;
+  height: 80px;
+  position: relative;
+  float: left;
+}
+
+.stack-name{
+  color: black;
+  font-size: 20px;
+  vertical-align: true;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  height: 80px;
+  line-height: 80px;
+}
+
+.stack-numb{
+  color: "#9c9a9c";
+  font-size: 12px;
+  margin-right: 10px;
+  position: relative;
+  float: right;
+  height: 80px;
+  line-height: 80px;
+}

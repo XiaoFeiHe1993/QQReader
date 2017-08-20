@@ -1,0 +1,38 @@
+<!--pages/rank/rank.wxml-->
+<view class="rank-view">
+    <view class="rank-left-view">
+        <view wx:for="{{leftList}}" wx:for-index="index" wx:for-item="item">
+            <view wx:if="{{selectIndex == index}}">
+                <view class="rank-left-select" data-index="{{index}}" bindtap="onLeftClick">
+                 <text>{{item.title}}</text>
+                </view>
+            </view>
+            <view wx:else>
+                <view class="rank-left-no-select" data-index="{{index}}" bindtap="onLeftClick">
+                 <text>{{item.title}}</text>
+                </view>
+            </view>
+            <view class="rank-line"></view> 
+        </view>
+    </view>
+    <view class="rank-right-view">
+        <view wx:for="{{rightList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="rank-right-root" url="../bookdetail/bookdetail">
+                <image src="/images/icon_rank2.png" class="rank-right-image"></image>
+                <view class="rank-right-child">
+                  <view>
+                      <text class="rank-right-name">{{item.name}}</text>
+                  </view>
+                  <view>
+                   <text class="rank-right-des">{{item.des}}</text>
+                  </view>
+                  <view>
+                    <text class="rank-right-autor">{{item.autor}}</text>
+                    <text class="rank-right-tag2">{{item.tag2}}</text>
+                    <text class="rank-right-tag1">{{item.tag1}}</text>
+                  </view>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view>
+  <view  bindtap="bindViewTap" class="book-case-root1">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class="book-case-middle">
+      <view class="book-case-name1">{{userInfo.nickName}}</view>
+      <view class="book-case-love">阅读偏好 网文-男生</view>
+    </view>
+    <view class="book-case-help1"><navigator url="../help/help"><text class="book-case-help">帮助</text></navigator></view>
+  </view>
+  <view class="book-case-line"></view>
+  <view>
+      <view wx:for="{{bookList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="book-case-root" url="../bookarticle/bookarticle">
+                 <image src="/images/icon_rank2.png" class="book-case-image"></image>
+                 <view class="book-case-child">
+                    <view class="book-case-top">
+                      <text class="book-case-name">{{item.name}}</text>
+                      <text class="book-case-status">{{item.status}}</text>
+                    </view>                     
+                    <view class="book-case-bottom">
+                      <text class="book-case-author">{{item.author}}</text>    
+                      <text class="book-case-time">{{item.time}}</text>     
+                    </view>              
+                 </view>
+            </navigator>
+            <view class="line"></view>  
+        </view>
+  </view>
+</view>

@@ -1,0 +1,147 @@
+<!--choose.wxml-->
+<view>
+    <view>
+        <view class="choose-item"><text>免费精品:男生推荐</text></view>
+        <view wx:for="{{manGoodList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="choose-root" url="../bookdetail/bookdetail">
+                 <image src="/images/icon_rank2.png" class="choose-image"></image>
+                 <view class="choose-child">
+                    <view>
+                      <text class="choose-name">{{item.name}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-des">{{item.des}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-autor">{{item.autor}}</text>
+                      <text class="choose-tag1">{{item.tag1}}</text>
+                      <text class="choose-tag2">{{item.tag2}}</text>
+                    </view>    
+                 </view>           
+            </navigator>
+            <view class="line"></view> 
+        </view>
+        <view class="choose-more"><navigator url="../booklist/booklist">查看更多</navigator></view>
+    </view>
+    <view class="choose-line"></view>
+    <view>
+        <view class="choose-item"><text>免费新书:男生推荐</text></view>
+        <view wx:for="{{manGoodList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="choose-root" url="../bookdetail/bookdetail">
+                 <image src="/images/icon_rank2.png" class="choose-image"></image>
+                 <view class="choose-child">
+                    <view>
+                      <text class="choose-name">{{item.name}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-des">{{item.des}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-autor">{{item.autor}}</text>
+                      <text class="choose-tag1">{{item.tag1}}</text>
+                      <text class="choose-tag2">{{item.tag2}}</text>
+                    </view>    
+                 </view>           
+            </navigator>
+            <view class="line"></view> 
+        </view>
+        <view class="choose-more"><navigator url="../booklist/booklist">查看更多</navigator></view>
+    </view>
+    <view class="choose-line"></view>
+    <view>
+        <view class="choose-item"><text>免费精品:出版推荐</text></view>
+        <view wx:for="{{manGoodList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="choose-root" url="../bookdetail/bookdetail">
+                 <image src="/images/icon_rank2.png" class="choose-image"></image>
+                 <view class="choose-child">
+                    <view>
+                      <text class="choose-name">{{item.name}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-des">{{item.des}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-autor">{{item.autor}}</text>
+                      <text class="choose-tag1">{{item.tag1}}</text>
+                      <text class="choose-tag2">{{item.tag2}}</text>
+                    </view>    
+                 </view>           
+            </navigator>
+            <view class="line"></view> 
+        </view>
+        <view class="choose-more"><navigator url="../booklist/booklist">查看更多</navigator></view>
+    </view>
+    <view class="choose-line"></view>
+    <view>
+        <view class="choose-item"><text>免费新书:出版推荐</text></view>
+        <view wx:for="{{manGoodList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="choose-root" url="../bookdetail/bookdetail">
+                 <image src="/images/icon_rank2.png" class="choose-image"></image>
+                 <view class="choose-child">
+                    <view>
+                      <text class="choose-name">{{item.name}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-des">{{item.des}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-autor">{{item.autor}}</text>
+                      <text class="choose-tag1">{{item.tag1}}</text>
+                      <text class="choose-tag2">{{item.tag2}}</text>
+                    </view>    
+                 </view>           
+            </navigator>
+            <view class="line"></view> 
+        </view>
+        <view class="choose-more"><text>查看更多</text></view>
+    </view>
+    <view class="choose-line"></view>
+    <view>
+        <view class="choose-item"><text>免费精品:女生推荐</text></view>
+        <view wx:for="{{manGoodList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="choose-root" url="../bookdetail/bookdetail">
+                 <image src="/images/icon_rank2.png" class="choose-image"></image>
+                 <view class="choose-child">
+                    <view>
+                      <text class="choose-name">{{item.name}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-des">{{item.des}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-autor">{{item.autor}}</text>
+                      <text class="choose-tag1">{{item.tag1}}</text>
+                      <text class="choose-tag2">{{item.tag2}}</text>
+                    </view>    
+                 </view>           
+            </navigator>
+            <view class="line"></view> 
+        </view>
+        <view class="choose-more"><navigator url="../booklist/booklist">查看更多</navigator></view>
+    </view>
+    <view class="choose-line"></view>
+    <view>
+        <view class="choose-item"><text>免费新书:女生推荐</text></view>
+        <view wx:for="{{manGoodList}}" wx:for-index="index" wx:for-item="item">
+            <navigator class="choose-root" url="../bookdetail/bookdetail">
+                 <image src="/images/icon_rank2.png" class="choose-image"></image>
+                 <view class="choose-child">
+                    <view>
+                      <text class="choose-name">{{item.name}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-des">{{item.des}}</text>
+                    </view>
+                    <view>
+                      <text class="choose-autor">{{item.autor}}</text>
+                      <text class="choose-tag1">{{item.tag1}}</text>
+                      <text class="choose-tag2">{{item.tag2}}</text>
+                    </view>    
+                 </view>           
+            </navigator>
+            <view class="line"></view> 
+        </view>
+        <view class="choose-more"><navigator url="../booklist/booklist">查看更多</navigator></view>
+    </view>
+    <view class="choose-line"></view>
+</view>

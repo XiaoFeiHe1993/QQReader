@@ -1,0 +1,40 @@
+/* bookarticle.wxss */
+
+.book-article-root1{
+  background-color: #f7f7ef;
+}
+
+.book-article-root{
+  width: 95%;
+  height: 100%;
+  background-color: #f7f7ef;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.book-article-bottom{
+  display: flex;
+  padding: 5px 10px 20px 10px;
+}
+
+.book-article-list{
+  flex: 2;
+  color: white;
+  text-align: center;
+  background-color: #319aff;
+  margin-right: 10px;
+}
+
+.book-article-next{
+  flex: 2;
+  text-align: center;
+  color: white;
+  background-color: #319aff;
+  margin-left: 10px;
+}
+
+.book-article-view{
+  flex: 1;
+  background-color: #f7f7ef;
+}
