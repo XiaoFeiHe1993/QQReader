@@ -1,5 +1,8 @@
 <!--choose.wxml-->
 <view>
+    <view class="choose-input-view">
+        <input class="choose-input" placeholder="搜索"/>
+    </view>
     <view>
         <view class="choose-item"><text>免费精品:男生推荐</text></view>
         <view wx:for="{{manGoodList}}" wx:for-index="index" wx:for-item="item">
@@ -9,10 +12,11 @@
                     <view>
                       <text class="choose-name">{{item.name}}</text>
                     </view>
-                    <view>
-                      <text class="choose-des">{{item.des}}</text>
+                    <view  class="choose-des">
+                      <text>{{item.des}}</text>
                     </view>
                     <view>
+                      <image src="/images/icon_header.png" class="choose-header"></image>
                       <text class="choose-autor">{{item.autor}}</text>
                       <text class="choose-tag1">{{item.tag1}}</text>
                       <text class="choose-tag2">{{item.tag2}}</text>
@@ -33,10 +37,11 @@
                     <view>
                       <text class="choose-name">{{item.name}}</text>
                     </view>
-                    <view>
-                      <text class="choose-des">{{item.des}}</text>
+                    <view class="choose-des">
+                      <text>{{item.des}}</text>
                     </view>
                     <view>
+                      <image src="/images/icon_header.png" class="choose-header"></image>
                       <text class="choose-autor">{{item.autor}}</text>
                       <text class="choose-tag1">{{item.tag1}}</text>
                       <text class="choose-tag2">{{item.tag2}}</text>
@@ -57,10 +62,11 @@
                     <view>
                       <text class="choose-name">{{item.name}}</text>
                     </view>
-                    <view>
-                      <text class="choose-des">{{item.des}}</text>
+                    <view class="choose-des">
+                      <text>{{item.des}}</text>
                     </view>
                     <view>
+                      <image src="/images/icon_header.png" class="choose-header"></image>
                       <text class="choose-autor">{{item.autor}}</text>
                       <text class="choose-tag1">{{item.tag1}}</text>
                       <text class="choose-tag2">{{item.tag2}}</text>
@@ -81,10 +87,11 @@
                     <view>
                       <text class="choose-name">{{item.name}}</text>
                     </view>
-                    <view>
-                      <text class="choose-des">{{item.des}}</text>
+                    <view class="choose-des">
+                      <text>{{item.des}}</text>
                     </view>
                     <view>
+                      <image src="/images/icon_header.png" class="choose-header"></image>
                       <text class="choose-autor">{{item.autor}}</text>
                       <text class="choose-tag1">{{item.tag1}}</text>
                       <text class="choose-tag2">{{item.tag2}}</text>
@@ -105,10 +112,11 @@
                     <view>
                       <text class="choose-name">{{item.name}}</text>
                     </view>
-                    <view>
-                      <text class="choose-des">{{item.des}}</text>
+                    <view class="choose-des">
+                      <text>{{item.des}}</text>
                     </view>
                     <view>
+                      <image src="/images/icon_header.png" class="choose-header"></image>
                       <text class="choose-autor">{{item.autor}}</text>
                       <text class="choose-tag1">{{item.tag1}}</text>
                       <text class="choose-tag2">{{item.tag2}}</text>
@@ -129,10 +137,11 @@
                     <view>
                       <text class="choose-name">{{item.name}}</text>
                     </view>
-                    <view>
-                      <text class="choose-des">{{item.des}}</text>
+                    <view class="choose-des">
+                      <text>{{item.des}}</text>
                     </view>
                     <view>
+                      <image src="/images/icon_header.png" class="choose-header"></image>
                       <text class="choose-autor">{{item.autor}}</text>
                       <text class="choose-tag1">{{item.tag1}}</text>
                       <text class="choose-tag2">{{item.tag2}}</text>

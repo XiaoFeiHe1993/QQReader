@@ -8,10 +8,11 @@
                     <view>
                       <text class="book-list-name">{{item.name}}</text>
                     </view>
-                    <view>
-                      <text class="book-list-des">{{item.des}}</text>
+                    <view class="book-list-des">
+                      <text>{{item.des}}</text>
                     </view>     
                     <view>
+                      <image src="/images/icon_header.png" class="book-list-header"></image>
                       <text class="book-list-autor">{{item.autor}}</text>    
                       <text class="book-list-tag2">{{item.tag2}}</text>    
                       <text class="book-list-tag1">{{item.tag1}}</text>  

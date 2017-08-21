@@ -94,3 +94,12 @@
   margin-right: 10px;
   margin-top: 10px;
 }
+
+.book-detail-mu-left{
+  margin-left: 10px;
+  margin-right: 220px;
+}
+
+.book-detail-mu-right{
+  margin-right: 10px;
+}

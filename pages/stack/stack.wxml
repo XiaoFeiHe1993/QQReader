@@ -7,12 +7,12 @@
             <text class="stack-name">{{item.name}}</text>
             <text class="stack-numb">{{item.numb}}  ></text>
         </navigator>
-        <view class="stack-line"></view> 
+        <view class="line"></view> 
     </view>
   </view>
   <view>
-    <text>以下分类推荐出版阅读</text>
-    <view class="stack-line"></view> 
+    <view class="stack-tag">-- 以下分类推荐出版阅读 --</view>
+    <view class="line"></view> 
   </view>
   <view>
     <view wx:for="{{recommendList}}" wx:for-index="index" wx:for-item="item">
@@ -21,12 +21,12 @@
             <text class="stack-name">{{item.name}}</text>
             <text class="stack-numb">{{item.numb}}  ></text>
         </navigator>
-        <view class="stack-line"></view> 
+        <view class="line"></view> 
     </view>
   </view>
   <view>
-    <text>以下分类推荐女生阅读</text>
-    <view class="stack-line"></view> 
+    <view class="stack-tag">-- 以下分类推荐女生阅读 --</view>
+    <view class="line"></view> 
   </view>
   <view>
     <view wx:for="{{girlList}}" wx:for-index="index" wx:for-item="item">
@@ -35,7 +35,7 @@
             <text class="stack-name">{{item.name}}</text>
             <text class="stack-numb">{{item.numb}}  ></text>
         </navigator>
-        <view class="stack-line"></view> 
+        <view class="line"></view> 
     </view>
   </view>
 </view>

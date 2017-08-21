@@ -10,7 +10,7 @@
             </view>
         </view>
         <view>
-            <text class="book-detail-des-jie">书记介绍</text>
+            <text class="book-detail-des-jie">书籍介绍</text>
             <text class="book-detail-des-mei">免费章节共8章</text>
             <text class="book-detail-des-update">更新于2015-08-05</text>
         </view>
@@ -20,8 +20,8 @@
             </text>
         </view>
         <view>
-            <text>书记目录</text>
-            <text>1-13章</text>
+            <text class="book-detail-mu-left">书记目录</text>
+            <text class="book-detail-mu-right">1-17章</text>
         </view>
         <view wx:for="{{menuList}}" wx:for-index="index" wx:for-item="item">
             <view class="book-detail-item">

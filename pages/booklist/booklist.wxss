@@ -7,8 +7,8 @@
 }
 
 .book-list-image{
-  width: 144px;
-  height: 128px;
+  width: 124px;
+  height: 112px;
   flex: 1;
 }
 
@@ -32,7 +32,7 @@
 .book-list-autor{
   font-size: 10px;
   color: #9c9a9c;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 .book-list-tag1{
@@ -58,4 +58,11 @@
   border-right: 2px solid #ff8608;
   position: relative;
   float: right;
+}
+
+.book-list-header{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-left: 5px;
 }

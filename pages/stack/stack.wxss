@@ -1,11 +1,5 @@
 /* pages/stack/stack.wxss */
 
-.stack-line{
-  width: 100%;
-  height: 1px;
-  background-color: #efefef;
-}
-
 .stack-view{
   height: 80px;
   padding: 5px 10px 5px 10px;
@@ -31,11 +25,19 @@
 }
 
 .stack-numb{
-  color: "#9c9a9c";
+  color: #9c9a9c;
   font-size: 12px;
   margin-right: 10px;
   position: relative;
   float: right;
   height: 80px;
   line-height: 80px;
+}
+
+.stack-tag{
+  background-color: #efeff7;
+  color: #9c9a9c;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
 }
